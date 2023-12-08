@@ -12,10 +12,13 @@
 <body>
   <!-- main logo / nav -->
   <header class="header">
-    <h1>George Okorie</h1>
+    <div class="name">
+      <h1>George Okorie</h1>
+    </div>
     <nav class="nav">
       <div class="about-me">
-        About Me
+        <a href="#about"> About Me</a>
+        
       </div>
       <div class="work">
         Work
@@ -36,8 +39,10 @@
 
   <main class="page-wrapper">
     <!-- about me -->
+    <!-- The 'a' signifies the location for the hyperlink to go to -->
+    <a id="about">
     <section class="page-section" id="about">
-      <h2 class="about-me">About Me</h2>
+      <h2 class="about-me-detail">About Me</h2>
       <div class="about-text">
         <text>
           I am a young tech enthusiast using this
@@ -46,22 +51,37 @@
         </text>
       </div>
     </section>
+  </a>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
       <h2 class="works">Work
-        <div>
-          <img src="/images/placeholder_1.png">
-          <img src="/images/placeholder_1.png">
-          <img src="/images/placeholder_1.png">
+        <div class="HTML">
+          <img src="/images/placeholder_1.png"  alt="Placeholder">
+          <!-- <img src="/images/placeholder_1.png"  alt="Placeholder">
+          <img src="/images/placeholder_1.png"  alt="Placeholder">
+          <img src="/images/placeholder_1.png"  alt="Placeholder"> -->
+          <text class="project">Project 1</text>
+        </div>
+        <div class="CSS">
+          <img src="/images/placeholder_1.png"  alt="Placeholder">
+          <text class="project_2">Project 2</text>
         </div>
       </h2>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me
-        <div></div>
+    <section class="page-section-contact" id="contact">
+      <h2>Contact Me:
+        <h3>
+          Email: george1@gmail.com
+        </h3>
+        <h3>
+          Phone: 0744097722
+        </h3>
+        <h3>
+          Github
+        </h3> 
       </h2>
     </section>
   </main>
