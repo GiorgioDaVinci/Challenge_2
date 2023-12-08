@@ -36,6 +36,7 @@
   background-size: cover;
 }
 
+
 /* Subtitle within the banner */
 .subtitle{
   display: flex; 
@@ -55,10 +56,8 @@
   text-align: center;
   padding-top: 10px;
 }
-
-/* This is class in the work section that contains all the projects */
-.works{
-  text-align:center;
+.about-me-detail{
+  justify-content: start;
 }
 
 /* This is an ID in the work section */
@@ -71,19 +70,21 @@
 }
 
 /* This is a class for the div where all the work placeholders are. */
-.HTML, .CSS{
-  padding-top: 10px;
+.HTML, .CSS, .JavaScript, .Git{
+  padding: 30px;
   position: relative; 
   text-align: center;
 }
 
 /* This code enables the text to be embedded on the placeholder */
-.project, .project_2{
+.project, .project_2, .project_3{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
 
 
 /* This a class that contains all the sections i.e about me,
@@ -112,6 +113,24 @@ h6 {
 p {
   margin: 0;
 }
+
+/* This code enables the image to enlarge when it is hovered */
+.thumbnail { 
+  top:-50px; 
+  left:-35px; 
+  display:block; 
+  z-index:999; 
+  cursor: pointer; 
+  transition-property: all; 
+  transition-duration: 0.1s; 
+  transition-timing-function: ease; 
+  } 
+  
+  /*change the number below to scale to the appropriate size*/ 
+  .thumbnail:hover { 
+  transform: scale(2); 
+  
+  }
 
 .page-section-contact{
   display: flex;

@@ -21,10 +21,10 @@
         
       </div>
       <div class="work">
-        Work
+        <a href="#work">Work</a>
       </div>
       <div class="contact-me">
-        Contact Me
+       <a href="#contact">Contact Me</a> 
       </div>
     </nav>
   </header>
@@ -54,36 +54,71 @@
   </a>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2 class="works">Work
+    <a id="work">
+      <section class="page-section" id="work">
+        <h2>Work</h2>
         <div class="HTML">
-          <img src="/images/placeholder_1.png"  alt="Placeholder">
-          <!-- <img src="/images/placeholder_1.png"  alt="Placeholder">
-          <img src="/images/placeholder_1.png"  alt="Placeholder">
-          <img src="/images/placeholder_1.png"  alt="Placeholder"> -->
-          <text class="project">Project 1</text>
+          <!-- To make the images clickable, I used the span attribute to wrap
+          the texts together and then added the anchor tag at the start of the image
+        and used a closing anchor tag at the end -->
+          <span>
+            <a href="https://giorgiodavinci.github.io/Challenge_1/" target="_blank">
+            <img class="thumbnail" src="/images/placeholder_1.png"  alt="Placeholder">
+          </a>
+            <text class="project">Project 1</text>
+          </span>
         </div>
         <div class="CSS">
-          <img src="/images/placeholder_1.png"  alt="Placeholder">
-          <text class="project_2">Project 2</text>
+          <span>
+            <a href="https://www.linkedin.com/in/george-o-37ba61ba?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNBkDI3%2BAT3WjHt04w5QK6Q%3D%3D" target="_blank">
+              <img class="thumbnail" src="/images/placeholder_1.png"  alt="Placeholder">
+            </a>
+            <text class="project_2">Project 2</text>
+          </span>
+          
         </div>
-      </h2>
-    </section>
+        <div class="JavaScript">
+          <span>
+            <a href="https://www.youtube.com/" target="_blank">
+              <img class="thumbnail" src="/images/placeholder_1.png"  alt="Placeholder">
+            </a>
+            
+            <text class="project_3">Project 3</text>
+          </span>
+          
+        </div>
+        <div class="Git">
+          <span>
+            <a href="https://www.wikipedia.org/" target="_blank">
+              <img class="thumbnail" src="/images/placeholder_1.png"  alt="Placeholder">
+            </a>
+            
+            <text class="project_3">Project 4</text>
+          </span>
+          
+        </div>
+        
+      </section>
+    </a>
+    
 
     <!-- contact -->
-    <section class="page-section-contact" id="contact">
-      <h2>Contact Me:
-        <h3>
-          Email: george1@gmail.com
-        </h3>
-        <h3>
-          Phone: 0744097722
-        </h3>
-        <h3>
-          Github
-        </h3> 
-      </h2>
-    </section>
+    <a id="contact">
+      <section class="page-section-contact" id="contact">
+        <h2 class="call">Contact Me:
+          <h3>
+            Email: george1@gmail.com
+          </h3>
+          <h3>
+            Phone: 0744097722
+          </h3>
+          <h3>
+            Github
+          </h3> 
+        </h2>
+      </section>
+    </a>
+    
   </main>
 </body>
 
