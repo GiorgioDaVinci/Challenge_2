@@ -1,0 +1,78 @@
+
+
+.header{
+  display: flex;
+  justify-content:space-between;
+  background-color: rgba(41, 106, 144, 0.863);
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.about-me, .work, .contact-me{
+  margin-left: 80px;
+  margin-right: 20px;
+  justify-content: space-evenly;
+}
+
+.hero-banner{
+  background-image: url(/images/banner.jfif);
+
+}
+.subtitle{
+  display: flex; 
+  justify-content: end;
+  color: white;
+  padding-bottom: 160px;
+}
+.profile{
+  width: 20%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#about{
+  text-align: center;
+  padding-top: 10px;
+}
+.works{
+  text-align: center;
+}
+#work{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+
+
+/* * {
+  box-sizing: border-box;
+} */
+
+.page-wrapper{
+  background-color: rgba(41, 106, 144, 0.863);
+}
+
+
+body {
+  margin: 100;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
