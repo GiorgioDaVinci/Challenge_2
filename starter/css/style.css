@@ -84,6 +84,14 @@
   position: relative; 
   justify-content: center;
   text-align: center;
+ 
+}
+
+/* Setting the height and width to 100% makes the
+image responsive. */
+.thumbnail{
+  height: 100%;
+  width: 100%;
 }
 
 /* This code enables the text to be embedded on the placeholder */
@@ -158,7 +166,7 @@ h3{
 }
 
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .header, #contact {
     display: none;
   }
@@ -169,5 +177,28 @@ h3{
     position: static;
     margin: 20px;
   }
+} */
+
+/* I start with max-width because it is designed 
+for desktop users first and can be tailored
+to suit mobile users too */
+@media (max-width: 600px){
+  h1{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  .call h2{
+    font-size: 0.5rem;
+  }
+
 }
 
+/* I have added a media query to make the images responsive */
+@media all and (max-width: 480px){
+  .thumbnail{
+    width: 100%;
+    
+  }
+}
