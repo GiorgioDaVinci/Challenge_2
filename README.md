@@ -12,5 +12,9 @@ The images in the work section when hovered increase in size and when clicked re
 
 I have been able to learn the functionality and importance of media queries in making a website responsive for easy accessibility.
 
+Below is a link to the deployed website.
+
+Link: https://giorgiodavinci.github.io/Challenge_2/
+
 ## License
 MIT
