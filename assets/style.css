@@ -34,7 +34,7 @@
   
   /* This contains the banner image */
   .hero-banner{
-    background-image: url(/assets/banner_1.jfif);
+    background-image: url(assets/banner_1.jfif);
     background-repeat: no-repeat;
     background-size: cover;
   }
