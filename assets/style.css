@@ -219,7 +219,13 @@
   /* I have added a media query to make the images responsive */
   @media all and (max-width: 480px){
     .thumbnail{
-      width: 100%;
-      
+      width: 20%;
     }
+
+    /* I have added a display block element in my media query so the images
+    are responsive to different screen sizes */
+    #work{
+      display: block;
+    }
+    
   }
